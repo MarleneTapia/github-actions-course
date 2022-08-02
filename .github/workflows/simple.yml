@@ -8,9 +8,8 @@ jobs:
     steps: 
       - name: echo a string
         run: echo "Hello Marlene Tapia!!"
-        timeout-minutes: 0
+        timeout-minutes: 3
       - name: multiline script 
         run: |
            node -v 
            npm -v
-           
